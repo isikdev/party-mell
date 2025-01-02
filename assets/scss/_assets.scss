@@ -1,0 +1,50 @@
+@import "_root";
+.title {
+    font-size: 33px;
+    font-weight: 700;
+    line-height: 53px;
+    background: $gold_gra;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main__btn {
+    padding: 20px;
+    border: 0px none;
+    outline: 0px none;
+    background: $gold_gra;
+    color: #1f1f1f;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px #edae294d;
+    transition: all 0.3s ease;
+    &:hover {
+        box-shadow: 0px 0px 80px 0px #edae294d;
+    }
+}
+.main__border {
+    padding: 20px 40px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
+    text-align: center;
+    border: 0px none;
+    outline: 0px none;
+    background: linear-gradient(121.99deg, #000000 33%, #85837d 100%);
+    border: 2px dotted #ffeeac;
+    color: #dcbc67;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    &:hover {
+        box-shadow: 0px 0px 80px 0px #edae294d;
+    }
+}
